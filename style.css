@@ -35,78 +35,154 @@
     margin: 2em;
 
 }
-.navContainer{
-    border:solid black;
-    display:flex;
+
+.navContainer {
+    border: solid black;
+    display: flex;
     justify-content: space-evenly;
 }
 
-.sMedia{
-    margin-top:2em;
+.sMedia {
+    margin-top: 2em;
     width: 30px;
-    height: 30px;  
+    height: 30px;
     /* position:fixed; */
-}.icon {
+}
+
+.icon {
     width: 30px;
     height: 30px;
 }
-.splitContainer{
+
+.splitContainer {
     /* padding:1em; */
-    margin-bottom:3em;
-    display:flex;
+    margin-bottom: 3em;
+    display: flex;
     justify-content: space-between;
 }
-.mainHolder{
-    width:100%;
-}
-.barContainer{
-    /* border:solid black; */
-    width:30px;
-    margin-left:90%;
-    position:fixed;
-    height:250px;
-}
-.headContainer{
-    border:solid red;
-    height:32vh;
-    margin:1em;
-   
-}
-.blkImg{
-    width:100%;
-}
-.profileContainer{
-    border:solid black;
-    height:42vh;
-}
-.mainLogo{
-    height:100%;
-}
-.logo{
+
+.mainHolder {
+    width: 100%;
 }
 
-.calendarContainer{
-    border:solid black;
-    height:43vh;
-    display:flex;
+.barContainer {
+    /* border:solid black; */
+    width: 30px;
+    margin-left: 90%;
+    position: fixed;
+    height: 250px;
 }
-.online{
-    border:solid blue;
-    text-align:right;
-    padding:10px;
-    width:50%;
+
+.headContainer {
+    border: solid red;
+    height: 32vh;
+    margin: 1em;
+
 }
-.inperson{
-    border:solid green;  
-    text-align:right;
-    padding:10px;
-    width:50%;
+
+.blkImg {
+    width: 100%;
 }
-.dayContainer{
-    border:solid blue;
-    display:flex;
+
+.profileContainer {
+    border: solid black;
+    height: 42vh;
+}
+
+.mainLogo {
+    height: 100%;
+}
+
+.logo {}
+
+.calendarContainer {
+    border: solid black;
+    height: 43vh;
+    display: flex;
+}
+
+.online {
+    border: solid blue;
+    /* text-align: right; */
+    padding: 10px;
+    width: 50%;
+}
+
+.inperson {
+    border: solid green;
+    /* text-align: right; */
+    padding: 10px;
+    width: 50%;
+    background-image:url('https://africanancestry.com/cdn/shop/files/hero-foreground.png?v=1666075396&width=1500');
+    background-size:cover;
+}
+
+.dayContainer {
+    border: solid blue;
+    display: flex;
     justify-content: space-evenly;
 }
-.music{
+
+.music {
+    width: 100%;
+}
+
+.leadershipContainer {
+    /* border: solid blue; */
+    padding:1em;
+    /* height: 212vh; */
+    margin: 1em;
+    /* display: flex; */
+}
+
+.leaderTitle {
+    font-family: abril fatface;
+    text-align: center;
+    margin:1em;
+}
+
+.ecal {
+    font-family: abril fatface;
+    text-align: center;
+    margin:1em;
+}
+.person{
+    border:solid black;
+    height:155px;
+    border-radius:50%;
+}
+.leadBox{
+    display:flex;
+    justify-content: space-around;
+    /* border:solid black; */
+    margin:1em;
+    padding:1em;
+    border-radius:22px;
+}
+.leadBox:hover{
+    display:flex;
+    justify-content: space-around;
+    /* border:solid black; */
+    margin:1em;
+    padding:1em;
+    border-radius:22px;
+    background-color: peru;
+}
+.personDescription{
+    /* border:solid black; */
+    margin:1.2em;
+    text-align:center;
+    border-radius:12px;
+    padding-top:18px;
+}
+.teamPic{
+    width:100%;
+}
+.optionContainer{
+    display:flex;
+    justify-content: space-evenly;
+    padding:1em;
+}
+.teamblk{
     width:100%;
 }
