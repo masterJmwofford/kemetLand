@@ -35,11 +35,10 @@
     margin: 2em;
 
 }
-
-.navContainer {
-    border: solid black;
-    display: flex;
-    justify-content: space-evenly;
+.navContainer{
+    border:solid black;
+    display:flex;
+    justify-content: space-between;
 }
 
 .sMedia {
@@ -83,17 +82,17 @@
 .blkImg {
     width: 100%;
 }
-
-.profileContainer {
-    border: solid black;
-    height: 42vh;
+.profileContainer{
+    border:solid black;
+    margin-bottom:2em;
+    padding:2em;
 }
 
 .mainLogo {
     height: 100%;
 }
 
-.logo {}
+
 
 .calendarContainer {
     border: solid black;
@@ -185,4 +184,38 @@
 }
 .teamblk{
     width:100%;
+}
+.knowledge{
+    /* display:flex; */
+    justify-content: space-between;
+    /* border:solid green; */
+}
+.mantra{
+    width:100%;
+    padding:1em;
+}
+iframe{
+    width:100%;
+    border-radius:12px;
+}
+.mt1{
+    font-family:chalkboard;
+    font-size:32px;
+    /* border:solid red; */
+    text-align:center;
+}
+.aboutTitle{
+    text-align: right;
+    margin:1em;
+}
+.join{
+    text-align:center;
+    margin:1em;
+    width:100%;
+    background-color: rgb(63, 2, 2);
+    color:white;
+    font-size:22px;
+}
+.bafLogo{
+    height:80px;
 }
