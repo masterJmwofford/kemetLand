@@ -1,6 +1,45 @@
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
 @media (max-width: 1580px) {
     body {
-        background-color: brown;
+        background-color: peru;
+    }
+
+    .attractContainer {
+        /* padding: 2em; */
+        /* height:90vh; */
+        margin: 1em;
+        display: flex;
+
+    }
+
+    .attraction {
+        border:solid black;
+        margin:1em;
+        width: 50%;
+    }
+
+    .boxHolder {
+        display: block;
+        text-align: center;
+        align-items: center;
     }
 }
 
@@ -8,7 +47,27 @@
 
 @media (max-width: 1280px) {
     body {
-        background-color: peru;
+        background-color: burlywood;
+    }
+
+    .attractContainer {
+        /* padding: 2em; */
+        /* height:90vh; */
+        margin: 1em;
+        display: flex;
+
+    }
+
+    .attraction {
+        border:solid black;
+        margin:.2px;
+        width: 33%;
+    }
+
+    .boxHolder {
+        display: block;
+        text-align: center;
+        align-items: center;
     }
 }
 
@@ -17,6 +76,25 @@
 @media (max-width: 680px) {
     body {
         background-color: burlywood;
+    }
+
+    .attractContainer {
+        /* padding: 2em; */
+        /* height:90vh; */
+        margin: 1em;
+        display: block;
+    }
+
+    .attraction {
+        border:solid black;
+        margin:.2px;
+        width: 100%;
+    }
+
+    .boxHolder {
+        display: flex;
+        text-align: center;
+        align-items: center;
     }
 }
 
@@ -35,10 +113,12 @@
     margin: 2em;
 
 }
-.navContainer{
-    border:solid black;
-    display:flex;
-    justify-content: space-between;
+
+.navContainer {
+    border: solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .sMedia {
@@ -73,19 +153,19 @@
 }
 
 .headContainer {
-    border: solid red;
-    height: 32vh;
-    margin: 1em;
-
+    border: solid peru;
+    height: 52vh;
+    /* margin: 1em; */
+    background-image: url('/images/bafSlogan.jpg');
+    background-size: cover;
 }
 
 .blkImg {
     width: 100%;
 }
-.profileContainer{
-    border:solid black;
-    margin-bottom:2em;
-    padding:2em;
+
+.profileContainer {
+    padding: 2em;
 }
 
 .mainLogo {
@@ -96,28 +176,32 @@
 
 .calendarContainer {
     border: solid black;
-    height: 43vh;
+    /* height: 43vh; */
     display: flex;
 }
 
 .online {
-    border: solid blue;
+    /* border: solid blue; */
     /* text-align: right; */
     padding: 10px;
     width: 50%;
+    background-image: url('https://media.istockphoto.com/id/922585658/photo/global-business-background.jpg?s=612x612&w=0&k=20&c=eS9ncSX4ldDkb_xUbVAf1WEBn3jPe_7lW1OdGjiOTzM=');
+    background-size: cover;
+    height: 400px;
 }
 
 .inperson {
-    border: solid green;
+    /* border: solid green; */
     /* text-align: right; */
     padding: 10px;
     width: 50%;
-    background-image:url('https://africanancestry.com/cdn/shop/files/hero-foreground.png?v=1666075396&width=1500');
-    background-size:cover;
+    height: 400px;
+    background-image: url('https://africanancestry.com/cdn/shop/files/hero-foreground.png?v=1666075396&width=1500');
+    background-size: cover;
 }
 
 .dayContainer {
-    border: solid blue;
+    /* border: solid blue; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -128,8 +212,9 @@
 
 .leadershipContainer {
     /* border: solid blue; */
-    padding:1em;
+    padding: 1em;
     /* height: 212vh; */
+    font-family: serif;
     margin: 1em;
     /* display: flex; */
 }
@@ -137,85 +222,135 @@
 .leaderTitle {
     font-family: abril fatface;
     text-align: center;
-    margin:1em;
+
 }
 
 .ecal {
     font-family: abril fatface;
     text-align: center;
-    margin:1em;
+    margin: 1em;
 }
-.person{
-    border:solid black;
-    height:155px;
-    border-radius:50%;
+
+.person {
+    border: solid black;
+    height: 105px;
+    border-radius: 50%;
 }
-.leadBox{
-    display:flex;
+
+.leadBox {
+    display: flex;
     justify-content: space-around;
     /* border:solid black; */
-    margin:1em;
-    padding:1em;
-    border-radius:22px;
+    /* margin:1em; */
+    padding: 1em;
+    border-radius: 22px;
 }
-.leadBox:hover{
-    display:flex;
+
+.leadBox:hover {
+    display: flex;
     justify-content: space-around;
     /* border:solid black; */
-    margin:1em;
-    padding:1em;
-    border-radius:22px;
+    /* margin:1em; */
+    padding: 1em;
+    border-radius: 22px;
     background-color: peru;
 }
-.personDescription{
+
+.personDescription {
     /* border:solid black; */
-    margin:1.2em;
-    text-align:center;
-    border-radius:12px;
-    padding-top:18px;
+    margin: 1.2em;
+    text-align: center;
+    border-radius: 12px;
+    padding-top: 18px;
 }
-.teamPic{
-    width:100%;
+
+.teamPic {
+    border:solid black;
+    width: 100%;
 }
-.optionContainer{
-    display:flex;
+
+.optionContainer {
+    display: flex;
     justify-content: space-evenly;
-    padding:1em;
+    padding: 1em;
+    width: 50%;
+    align-items: center;
 }
-.teamblk{
-    width:100%;
+
+.teamblk {
+    width: 100%;
 }
-.knowledge{
+
+.knowledge {
     /* display:flex; */
     justify-content: space-between;
     /* border:solid green; */
 }
-.mantra{
-    width:100%;
-    padding:1em;
+
+.mantra {
+    width: 100%;
+    padding: 1em;
 }
-iframe{
-    width:100%;
-    border-radius:12px;
+
+iframe {
+    width: 100%;
+    border-radius: 12px;
 }
-.mt1{
-    font-family:chalkboard;
-    font-size:32px;
-    /* border:solid red; */
-    text-align:center;
+
+.mt1 {
+    font-family: Abril fatface;
+    animation: bounce 1s ease-out infinite;
+    font-size: 32px;
+    text-align: center;
 }
-.aboutTitle{
+
+.aboutTitle {
     text-align: right;
-    margin:1em;
+    margin: 1em;
 }
-.join{
-    text-align:center;
-    margin:1em;
-    width:100%;
+
+.join {
+    text-align: center;
+    margin: 1em;
+    width: 100%;
     background-color: rgb(63, 2, 2);
-    color:white;
-    font-size:22px;
+    color: white;
+    font-size: 22px;
 }
-.bafLogo{
-    height:80px;
+
+.bafLogo {
+    height: 80px;
+}
+
+.attrPic {
+    /* border: solid navy; */
+    /* border-radius:22px; */
+    width: 100%;
+
+}
+
+.queryAsk{
+    margin-top:12px;
+}
+
+.attrTitle {
+    /* border:solid purple; */
+    width: 40%;
+    font-family: abril fatface;
+    font-size: 22px;
+    padding: 1em;
+}
+
+.attrDescription {
+    /* border:solid white; */
+    padding: 1em;
+
+}
+
+.queryContainer {
+    border:solid black;
+    display: flex;
+    justify-content: space-around;
+    font-family: abril fatface;
+    text-align: center;
 }
