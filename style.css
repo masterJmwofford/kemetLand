@@ -31,8 +31,8 @@
     }
 
     .attraction {
-        border:solid black;
-        margin:1em;
+        border: solid black;
+        margin: 1em;
         width: 50%;
     }
 
@@ -40,6 +40,17 @@
         display: block;
         text-align: center;
         align-items: center;
+    }
+
+    .jtBanner {
+        width: 50%;
+        height: 30%;
+    }
+
+    .jtContainer {
+
+        display: flex;
+        justify-content: space-around;
     }
 }
 
@@ -59,8 +70,8 @@
     }
 
     .attraction {
-        border:solid black;
-        margin:.2px;
+        border: solid black;
+        margin: .2px;
         width: 33%;
     }
 
@@ -68,6 +79,17 @@
         display: block;
         text-align: center;
         align-items: center;
+    }
+
+    .jtBanner {
+        width: 100%;
+        height: 40%;
+    }
+
+    .jtContainer {
+
+        display: block;
+        justify-content: space-around;
     }
 }
 
@@ -86,8 +108,8 @@
     }
 
     .attraction {
-        border:solid black;
-        margin:.2px;
+        border: solid black;
+        margin: .2px;
         width: 100%;
     }
 
@@ -95,6 +117,16 @@
         display: flex;
         text-align: center;
         align-items: center;
+    }
+
+    .jtBanner {
+        width: 100%;
+    }
+
+    .jtContainer {
+
+        display: block;
+        justify-content: none;
     }
 }
 
@@ -201,9 +233,23 @@
 }
 
 .dayContainer {
-    /* border: solid blue; */
+    border: solid beige;
     display: flex;
     justify-content: space-evenly;
+}
+.day{
+    text-align: center;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+   
+}
+.day:hover{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    -webkit-box-shadow: 1px 4px 15px 5px #703434; 
+    box-shadow: 1px 4px 15px 5px #703434;
 }
 
 .music {
@@ -221,7 +267,7 @@
 
 .leaderTitle {
     font-family: abril fatface;
-    text-align: center;
+    text-align: right;
 
 }
 
@@ -233,13 +279,13 @@
 
 .person {
     border: solid black;
-    height: 105px;
+    height: 150px;
     border-radius: 50%;
 }
 
 .leadBox {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     /* border:solid black; */
     /* margin:1em; */
     padding: 1em;
@@ -248,7 +294,7 @@
 
 .leadBox:hover {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     /* border:solid black; */
     /* margin:1em; */
     padding: 1em;
@@ -265,7 +311,7 @@
 }
 
 .teamPic {
-    border:solid black;
+    border: solid black;
     width: 100%;
 }
 
@@ -273,7 +319,7 @@
     display: flex;
     justify-content: space-evenly;
     padding: 1em;
-    width: 50%;
+    width: 70%;
     align-items: center;
 }
 
@@ -326,11 +372,10 @@ iframe {
     /* border: solid navy; */
     /* border-radius:22px; */
     width: 100%;
-
 }
 
-.queryAsk{
-    margin-top:12px;
+.queryAsk {
+    margin-top: 12px;
 }
 
 .attrTitle {
@@ -348,9 +393,115 @@ iframe {
 }
 
 .queryContainer {
-    border:solid black;
+    border: solid black;
     display: flex;
     justify-content: space-around;
     font-family: abril fatface;
     text-align: center;
+}
+
+.buyLand {
+    background-color: #333C3F;
+    color: lime;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.jtVid {
+    /* margin:1em; */
+
+}
+
+.jtTitle {
+    margin: 1em;
+    font-size: 42px;
+    font-family: abril fatface;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.productContainer {
+    border: solid black;
+    height: 92vh;
+    margin: 1em;
+}
+
+.a-product {
+    border: solid grey;
+    width: 40%;
+    height: 320px;
+    margin: 1em;
+}
+
+.ap-img {
+    border: solid green;
+    height: 75%;
+    width: 100%;
+}
+
+.ap-name {
+    border: solid black;
+}
+.leadSpecs{
+    border:solid black;
+    padding:2em;
+    text-align:center;
+    background-size:cover;
+    color:black;
+    
+}
+.kemetTop{
+    
+}
+.kemetContainer{
+    display:flex;
+    justify-content: space-evenly;
+}
+.memberTitle{
+    font-family:abril fatface;
+    text-align:right;
+}
+.clanContainer{
+    display:flex;
+    justify-content: space-between;
+}
+.coffeeContainer{
+    border:solid black;
+    margin:1em;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    /* height:65vh; */
+}
+.clanMaker{
+    border:solid peru;
+    width:250px;
+    margin:1em;
+    text-align:center;
+}
+.clanMaker:hover{
+    border:solid green;
+    width:250px;
+    margin:1em;
+    text-align:center;
+    -webkit-box-shadow: 1px 4px 15px 5px #703434; 
+    box-shadow: 1px 4px 15px 5px #703434;
+}
+
+.cm-price{
+    font-size:42px;
+}
+.cm-select{
+    margin:1em;
+    font-size:22px;
+    background-color:green;
+    color:white;
+
+}
+.star{
+    height:60px;
 }
