@@ -796,7 +796,7 @@ a:visited {
 .tse {
     height: 60px;
     border: solid white;
-    /* border-radius:50%; */
+    border-radius:12px;
 }
 .lkFrame{
     /* padding:1em; */
