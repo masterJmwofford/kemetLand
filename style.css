@@ -110,23 +110,27 @@
         background-image: url('https://africanancestry.com/cdn/shop/files/hero-foreground.png?v=1666075396&width=1500');
         background-size: cover;
     }
-    .movementContainer{
+
+    .movementContainer {
         /* margin:2em; */
         /* border:solid lime; */
         /* height:50vh; */
-        display:flex;
+        display: flex;
     }
+
     .menom {
         width: 50%;
         border-radius: 22px;
         padding: 2em;
     }
+
     .mom-title2 {
         text-align: center;
-        display:none;
+        display: none;
     }
-    .moodPic{
-        width:100%;
+
+    .moodPic {
+        width: 100%;
     }
 
 }
@@ -226,30 +230,35 @@
         background-image: url('https://africanancestry.com/cdn/shop/files/hero-foreground.png?v=1666075396&width=1500');
         background-size: cover;
     }
-    .movementContainer{
+
+    .movementContainer {
         /* margin:2em; */
         /* border:solid lime; */
         /* height:50vh; */
-        display:flex;
+        display: flex;
     }
+
     .menom {
         width: 50%;
         border-radius: 22px;
         padding: 2em;
     }
+
     .mom-title2 {
         text-align: center;
-        display:none;
+        display: none;
     }
-    .moodPic{
-        width:100%;
+
+    .moodPic {
+        width: 100%;
 
     }
-    .moodText{
-        border:solid black;
-        padding:1em;
-        width:80%;
-        font-size:14px;
+
+    .moodText {
+        /* border:solid black; */
+        padding: 1em;
+        width: 80%;
+        font-size: 14px;
     }
 }
 
@@ -346,29 +355,34 @@
         background-image: url('https://africanancestry.com/cdn/shop/files/hero-foreground.png?v=1666075396&width=1500');
         background-size: cover;
     }
-    .movementContainer{
+
+    .movementContainer {
         /* border:solid lime; */
         /* margin:2em; */
         /* height:50vh; */
-        display:block;
+        display: block;
     }
+
     .menom {
         width: 100%;
         border-radius: 22px;
         padding: 2em;
     }
+
     .mom-title2 {
         text-align: center;
-        display:block;
+        display: block;
     }
-    .moodPic{
-        width:100%;
+
+    .moodPic {
+        width: 100%;
     }
-    .moodText{
-        border:solid black;
-        padding:1em;
-        width:100%;
-        font-size:14px;
+
+    .moodText {
+        /* border:solid black; */
+        padding: 1em;
+        width: 100%;
+        font-size: 14px;
     }
 
 }
@@ -582,7 +596,7 @@ iframe {
     /* border: solid navy; */
     /* border-radius:22px; */
     width: 100%;
-    height:300px;
+    height: 300px;
 }
 
 .queryAsk {
@@ -614,9 +628,13 @@ iframe {
 
 .buyLand {
     background-color: #333C3F;
-    color: lime;
+    color: black;
+    background-color:lime;
     height: 40px;
+    width: 100%;
     border-radius: 8px;
+    animation: bounce 1s ease-out infinite;
+
 }
 
 .jtVid {
@@ -758,22 +776,28 @@ a:visited {
 
 
 
-.moodDesc{
+.moodDesc {
     /* border:solid red; */
-    margin:1em;
-    padding:1em;
-    font-family:cinzel;
+    margin: 1em;
+    padding: 1em;
+    font-family: cinzel;
 }
-.moodTop{
-    text-align:center;
-    font-family:cinzel;
+
+.moodTop {
+    text-align: center;
+    font-family: cinzel;
 }
-.moodLow{
-    text-align:center;
-    font-family:cinzel;
+
+.moodLow {
+    text-align: center;
+    font-family: cinzel;
 }
-.tse{
-    height:60px;
-    border:solid white;
+
+.tse {
+    height: 60px;
+    border: solid white;
     /* border-radius:50%; */
+}
+.lkFrame{
+    /* padding:1em; */
 }
