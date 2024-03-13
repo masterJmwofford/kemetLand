@@ -620,10 +620,11 @@ iframe {
 
 .attrTitle {
     /* border:solid purple; */
-    width: 40%;
-    font-family: abril fatface;
+    width: 100%;
+    font-family:cinzel ;
     font-size: 22px;
     padding: 1em;
+    text-align: center;
 }
 
 .attrDescription {
