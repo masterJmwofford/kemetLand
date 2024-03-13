@@ -827,3 +827,15 @@ a:visited {
 .mainSplash{
     width:100%;
 }
+.tupac{
+font-family: cinzel; 
+width:100%;
+text-align:center;
+font-size:52px
+}
+.sexyIntro{
+    font-family: arial;
+    font-size:22px;
+    padding:1em;
+    text-align: center;
+}
