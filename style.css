@@ -86,7 +86,7 @@
     }
 
     .calendarContainer {
-        border: solid red;
+        /* border: solid red; */
         /* height: 43vh; */
         display: flex;
     }
@@ -112,7 +112,7 @@
     }
     .movementContainer{
         /* margin:2em; */
-        border:solid lime;
+        /* border:solid lime; */
         /* height:50vh; */
         display:flex;
     }
@@ -202,7 +202,7 @@
     }
 
     .calendarContainer {
-        border: solid red;
+        /* border: solid red; */
         /* height: 43vh; */
         display: flex;
     }
@@ -228,7 +228,7 @@
     }
     .movementContainer{
         /* margin:2em; */
-        border:solid lime;
+        /* border:solid lime; */
         /* height:50vh; */
         display:flex;
     }
@@ -322,7 +322,7 @@
     }
 
     .calendarContainer {
-        border: solid red;
+        /* border: solid red; */
         /* height: 43vh; */
         display: block;
     }
@@ -347,7 +347,7 @@
         background-size: cover;
     }
     .movementContainer{
-        border:solid lime;
+        /* border:solid lime; */
         /* margin:2em; */
         /* height:50vh; */
         display:block;
@@ -759,7 +759,7 @@ a:visited {
 
 
 .moodDesc{
-    border:solid red;
+    /* border:solid red; */
     margin:1em;
     padding:1em;
     font-family:cinzel;
