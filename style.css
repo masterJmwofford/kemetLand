@@ -699,7 +699,9 @@ a:visited {
 
 }
 
-.kemetTop {}
+.kemetLow{
+    width:100%;
+}
 
 .kemetContainer {
     display: flex;
@@ -814,4 +816,7 @@ a:visited {
 }
 .lkFrame{
     /* padding:1em; */
+}
+.phitz{
+    width:100%;
 }
