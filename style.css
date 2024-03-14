@@ -293,7 +293,8 @@
 
 @media (max-width: 680px) {
     body {
-        background-color: white;
+        background-color: rgb(68, 39, 6);
+        color:white;
     }
 
     .attractContainer {
