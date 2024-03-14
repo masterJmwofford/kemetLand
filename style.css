@@ -478,6 +478,7 @@
     margin:1em;
     display: flex;
     justify-content: space-between;
+    border:solid black;
 }
 
 .mainHolder {
