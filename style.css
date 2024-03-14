@@ -140,10 +140,13 @@
     }
     .sexyIntro{
         font-family: arial;
-        font-size:22px;
+        font-size:18px;
         padding:1em;
         text-align: center;
         display:none;
+    }
+    .day{
+        margin-top:15%;
     }
     
 
@@ -281,10 +284,13 @@
     }
     .sexyIntro{
         font-family: arial;
-        font-size:22px;
+        font-size:18px;
         padding:1em;
         text-align: center;
         display:none;
+    }
+    .day{
+        margin-top:15%;
     }
     
 }
@@ -419,14 +425,16 @@
     } 
     .sexyIntro{
         font-family: arial;
-        font-size:22px;
+        font-size:18px;
         padding:1em;
         text-align: center;
         display:block;
     }
 
 }
-
+.day{
+    margin-top:0;
+}
 /* -------------- */
 /* -------------- */
 /* ----[GENERAL]------- */
