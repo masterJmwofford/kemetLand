@@ -465,6 +465,8 @@
 .splitContainer {
     /* padding:1em; */
     margin-bottom: 3em;
+    margin-top: 3em;
+    margin:1em;
     display: flex;
     justify-content: space-between;
 }
