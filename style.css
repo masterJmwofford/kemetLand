@@ -204,7 +204,7 @@
 
     .aboutus {
         display: flex;
-        margin: 1em;
+        /* margin: 1em; */
     }
 
     .aboutVid {
@@ -344,7 +344,7 @@
     .aboutus {
         display: block;
         justify-content: space-evenly;
-        margin: 1em;
+        /* margin: 1em; */
     }
 
     .aboutVid {
