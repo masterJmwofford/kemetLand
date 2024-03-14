@@ -816,7 +816,7 @@ a:visited {
 .moodDesc {
     /* border:solid red; */
     margin: 1em;
-    padding: 3em;
+    /* padding: 3em; */
     text-align:center;
     font-family: cinzel;
 }
