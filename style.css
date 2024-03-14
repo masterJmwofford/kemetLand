@@ -794,18 +794,18 @@ a:visited {
 }
 
 .communityContainer {
-    border: solid purple;
+    /* border: solid black; */
     margin: 1em;
-    height: 55vh;
+    /* height: 55vh; */
 }
 
 .commTitle {
-    font-family: abril fatface;
+    font-family:cinzel;
     text-align: center;
 }
 
 .testimonialContainer {
-    border: solid peru;
+    /* border: solid peru; */
     padding: 1em;
 
 }
@@ -876,4 +876,17 @@ font-size:32px
 .oline,.ipr{
     width:100%;
     height:100%;
+}
+.teste{
+    margin:1em;
+    border:solid grey;
+    /* display:flex; */
+    padding:1em;
+    justify-content: space-between;
+}
+.testeText{
+    /* border:solid black; */
+    text-align:center;
+    /* width:50%; */
+    padding-top:10%;
 }
