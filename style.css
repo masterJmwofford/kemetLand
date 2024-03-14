@@ -112,8 +112,9 @@
     }
 
     .movementContainer {
-        /* margin:2em; */
-        /* border:solid lime; */
+        margin:2em;
+        border: double black;
+        border-width:9px;
         /* height:50vh; */
         display: flex;
     }
