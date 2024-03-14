@@ -706,7 +706,7 @@ a:visited {
 .productContainer {
     border: solid black;
     /* height: 92vh; */
-    margin: 1em;
+    /* margin: 1em; */
     display: flex;
     flex-wrap:wrap;
 }
