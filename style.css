@@ -538,7 +538,7 @@
 }
 
 .ecal {
-    font-family:cinzel;
+    font-family:cinzel,serif;
     text-align: right;
     margin: 1em;
 }
