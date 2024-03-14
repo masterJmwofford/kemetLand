@@ -708,6 +708,7 @@ a:visited {
     /* height: 92vh; */
     /* margin: 1em; */
     display: flex;
+    justify-content: space-evenly;
     flex-wrap:wrap;
 }
 .ap-price{
@@ -717,13 +718,13 @@ a:visited {
     border: solid grey;
     width: 40%;
     height: 450px;
-    margin: 1em;
+    /* margin: 1em; */
 }
 .a-product:hover {
     border: solid grey;
     width: 40%;
     height: 450px;
-    margin: 1em;
+    /* margin: 1em; */
     align-items: center;
     -webkit-box-shadow: 1px 4px 15px 5px #703434;
     box-shadow: 1px 4px 15px 5px #703434;
