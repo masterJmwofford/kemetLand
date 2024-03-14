@@ -137,6 +137,13 @@
         display: flex;
         justify-content: space-evenly;
     }
+    .sexyIntro{
+        font-family: arial;
+        font-size:22px;
+        padding:1em;
+        text-align: center;
+        display:none;
+    }
     
 
 }
@@ -271,6 +278,13 @@
         display: block;
         justify-content: space-evenly;
     }
+    .sexyIntro{
+        font-family: arial;
+        font-size:22px;
+        padding:1em;
+        text-align: center;
+        display:none;
+    }
     
 }
 
@@ -400,7 +414,14 @@
         border: solid beige;
         display: flex;
         justify-content: space-evenly;
-    }    
+    } 
+    .sexyIntro{
+        font-family: arial;
+        font-size:22px;
+        padding:1em;
+        text-align: center;
+        display:block;
+    }
 
 }
 
@@ -832,11 +853,12 @@ a:visited {
 font-family: cinzel; 
 width:100%;
 text-align:center;
-font-size:52px
+font-size:32px
 }
-.sexyIntro{
-    font-family: arial;
-    font-size:22px;
+
+.Opoint,.Ipoint{
+    border:solid black;
+    margin:1em;
     padding:1em;
     text-align: center;
 }
