@@ -31,7 +31,7 @@
     }
 
     .attraction {
-        border: solid black;
+        /* border: solid black; */
         margin: 1em;
         width: 50%;
     }
@@ -666,7 +666,7 @@ iframe {
 }
 
 .queryContainer {
-    border: solid black;
+    /* border: solid black; */
     display: flex;
     justify-content: space-around;
     font-family: abril fatface;
