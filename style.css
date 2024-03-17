@@ -976,3 +976,7 @@ font-size:32px
     background-color:burlywood;
     color:black;
 }
+
+*{
+    border-width:.2px;
+}
