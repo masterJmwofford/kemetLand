@@ -906,18 +906,19 @@ font-size:32px
 }
 .teste{
     margin:1em;
-    border:solid burlywood;
+    /* border:solid black; */
     border-width:.2px;
     /* display:flex; */
     /* padding:1em; */
-    color:burlywood;
+    color:black;
     justify-content: space-between;
 }
 .testeText{
     /* border:solid burlywood; */
     text-align:center;
+    font-family: cinzel;
     /* width:50%; */
-    color:burlywood;
+    color:black;
 }
 .pyramidContainer{
     /* border:solid black; */
@@ -969,6 +970,6 @@ font-size:32px
     background-image:url('https://www.artyfactory.com/egyptian_art/egyptian_hieroglyphs/images/hieroglyphs/hieroglyphs.jpg');
 }
 .offcanvas-body{
-    background-color:black;
-    color:burlywood;
+    background-color:burlywood;
+    color:black;
 }
