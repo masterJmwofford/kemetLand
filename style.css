@@ -97,6 +97,7 @@
         /* text-align: right; */
         padding: 10px;
         width: 50%;
+        border-radius: 22px;
         /* background-image: url('https://static.wixstatic.com/media/ead7da_272301bcbd26458d865599449300c85b~mv2.jpeg/v1/fill/w_960,h_1200,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ead7da_272301bcbd26458d865599449300c85b~mv2.jpeg'); */
         background-size: cover;
         /* height: 200px; */
@@ -234,6 +235,7 @@
         /* text-align: right; */
         padding: 10px;
         width: 50%;
+        border-radius: 22px;
         /* background-image: url('https://static.wixstatic.com/media/ead7da_272301bcbd26458d865599449300c85b~mv2.jpeg/v1/fill/w_960,h_1200,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ead7da_272301bcbd26458d865599449300c85b~mv2.jpeg'); */
         background-size: cover;
         /* height: 200px; */
@@ -376,6 +378,7 @@
         /* text-align: right; */
         padding: 10px;
         width: 100%;
+        border-radius: 22px;
         /* background-image: url('https://static.wixstatic.com/media/ead7da_272301bcbd26458d865599449300c85b~mv2.jpeg/v1/fill/w_960,h_1200,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ead7da_272301bcbd26458d865599449300c85b~mv2.jpeg'); */
         background-size: cover;
         /* height: 200px; */
@@ -478,7 +481,7 @@
     margin:1em;
     display: flex;
     justify-content: space-between;
-    border:solid black;
+    /* border:solid black; */
 }
 
 .mainHolder {
@@ -824,7 +827,7 @@ width:100%;
 
 .commTitle {
     font-family:cinzel;
-    color:peru;
+    color:black;
     text-align: center;
 }
 
@@ -903,16 +906,18 @@ font-size:32px
 }
 .teste{
     margin:1em;
-    /* border:solid grey; */
+    border:solid burlywood;
+    border-width:.2px;
     /* display:flex; */
-    padding:1em;
+    /* padding:1em; */
+    color:burlywood;
     justify-content: space-between;
 }
 .testeText{
-    /* border:solid black; */
+    /* border:solid burlywood; */
     text-align:center;
     /* width:50%; */
-    padding-top:10%;
+    color:burlywood;
 }
 .pyramidContainer{
     /* border:solid black; */
@@ -959,4 +964,11 @@ font-size:32px
 .location{
     font-family: cinzel;
     text-align:center;
+}
+.offcanvas-header{
+    background-image:url('https://www.artyfactory.com/egyptian_art/egyptian_hieroglyphs/images/hieroglyphs/hieroglyphs.jpg');
+}
+.offcanvas-body{
+    background-color:black;
+    color:burlywood;
 }
