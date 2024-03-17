@@ -171,7 +171,7 @@
     .attraction {
         border: solid black;
         margin: .2px;
-        width: 33%;
+        width: 50%;
     }
 
     .boxHolder {
@@ -824,6 +824,7 @@ width:100%;
 
 .commTitle {
     font-family:cinzel;
+    color:peru;
     text-align: center;
 }
 
@@ -902,7 +903,7 @@ font-size:32px
 }
 .teste{
     margin:1em;
-    border:solid grey;
+    /* border:solid grey; */
     /* display:flex; */
     padding:1em;
     justify-content: space-between;
@@ -912,4 +913,34 @@ font-size:32px
     text-align:center;
     /* width:50%; */
     padding-top:10%;
+}
+.pyramidContainer{
+    /* border:solid black; */
+    margin:1em;
+    /* height:72vh; */
+    margin-bottom:4em;
+}
+.pyramidEntrance{
+    border:double black;
+    border-width:8px;
+    padding:1em;
+    height:100%;
+    margin:1em;
+}
+.py{
+    width:100%;
+    height:80%;
+}
+.pyTxt{
+    font-family: megrim;
+    text-align: center;
+    font-size:62px;
+}
+.pySm{
+    font-family: megrim;
+    text-align: center;
+    font-size:32px;
+}
+.pyInfo{
+    text-align:center;
 }

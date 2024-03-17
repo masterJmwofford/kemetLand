@@ -7,6 +7,13 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,8 +21,9 @@
 
 
     <div class="navContainer">
-        <a href="/index.html"><img src="https://static.wixstatic.com/media/ead7da_284e60a1defc43ef9788fc041d0face2~mv2.jpg/v1/crop/x_0,y_0,w_1123,h_762/fill/w_456,h_312,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/BAF%2081_2%20X%2011%20Logo%20for%20t-shirts-2_edited.jpg"
-            alt="" class="bafLogo"></a>
+        <a href="/index.html"><img
+                src="https://static.wixstatic.com/media/ead7da_284e60a1defc43ef9788fc041d0face2~mv2.jpg/v1/crop/x_0,y_0,w_1123,h_762/fill/w_456,h_312,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/BAF%2081_2%20X%2011%20Logo%20for%20t-shirts-2_edited.jpg"
+                alt="" class="bafLogo"></a>
         <a href="/member.html">
             <div class="navTag">Membership</div>
         </a>
@@ -35,6 +43,70 @@
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
+    </div>
+
+    <div class="experienceContainer">
+        <button style="width:100%;"class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+            aria-controls="offcanvasScrolling">Click To See Our Members in Action</button>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+            id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header bg-dark">
+                <h1  class="commTitle">BAF Testimonials</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-dark" style="color:burlywood;">
+                <p>See What Our Members have to say about their experience.</p>
+                <div class="communityContainer">
+                    
+
+                    <div class="teste">
+                        <iframe width="100%" height="215"
+                            src="https://www.youtube.com/embed/_qIkCAvK8cY?si=Fn554JgL3FiKlzFr"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <div class="testeText">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                    </div>
+
+                    <div class="teste">
+                        <iframe width="100%" height="215"
+                            src="https://www.youtube.com/embed/pwRl09IcMDo?si=r9DNreLOINlSMssb"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <div class="testeText">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                    </div>
+                    <div class="teste">
+                        <iframe width="100%" height="215"
+                            src="https://www.youtube.com/embed/SRzkTRQvHMU?si=kJZwBXJ3buKX_8PO"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <div class="testeText">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                    </div>
+                    <div class="teste">
+                        <iframe width="100%" height="215"
+                            src="https://www.youtube.com/embed/_qIkCAvK8cY?si=Fn554JgL3FiKlzFr"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <div class="testeText">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                    </div>
+                    <div class="teste">
+                        <iframe width="100%" height="215"
+                            src="https://www.youtube.com/embed/_uovGm3GKzA?si=F7PJWNUX6W0bkTzZ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <div class="testeText">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <div class="coffeeContainer">
@@ -86,14 +158,19 @@
         </div>
 
 
-        
+
 
 
 
 
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="app.js" async defer></script>
 </body>
 
