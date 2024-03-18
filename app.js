@@ -34,7 +34,8 @@ const programLib = {
     },
     thursday: {
         online: [
-            "Etymology Thursdays "
+            "Etymology Thursdays ",
+            "Atlanta Branch Meeting"
         ],
         inperson: ["Kemet CYphers 7-9 PM EST"]
     },
@@ -48,7 +49,8 @@ const programLib = {
     },
     saturday: {
         online: [
-            "Smai.Tawi Mindful Meditation 9AM EST"
+            "Smai.Tawi Mindful Meditation 9AM EST",
+            "Community Open House"
         ],
         inperson: [
             "Open Mic 7-10 EST"

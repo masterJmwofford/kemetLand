@@ -652,6 +652,7 @@ iframe {
     margin-top: 12px;
     font-size: 44px;
     font-family: bangers;
+    text-align: center;
 }
 
 .attrTitle {
@@ -676,6 +677,8 @@ iframe {
     justify-content: space-around;
     font-family: abril fatface;
     text-align: center;
+    padding:1em;
+    margin:1em;
 }
 
 .buyLand {
@@ -979,4 +982,11 @@ font-size:32px
 
 *{
     border-width:.2px;
+}
+.queryTalk{
+    width:100%;
+    margin:1em;
+    padding:1em;
+    font-family:cinzel;
+    text-align:center;
 }
