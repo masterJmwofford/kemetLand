@@ -20,6 +20,7 @@
 @media (max-width: 1580px) {
     body {
         background-color: peru;
+        padding:1em;
     }
 
     .attractContainer {
@@ -159,6 +160,7 @@
 @media (max-width: 1280px) {
     body {
         background-color: burlywood;
+        padding:1em;
     }
 
     .attractContainer {
@@ -303,6 +305,7 @@
 @media (max-width: 680px) {
     body {
         background-color: burlywood;
+        padding:1em;
         /* color:white; */
     }
 
